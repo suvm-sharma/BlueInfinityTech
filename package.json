@@ -1,0 +1,20 @@
+{
+  "name": "blueinfinitytech",
+  "version": "1.0.0",
+  "description": "Creating sigup, login API where user can signup with name, email and password after successful signup user can login with the saved email and password, after that create an another API where user can get all the details that are successfully signup",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Shubham Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
